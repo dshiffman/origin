@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:shaper="http://www.shapertools.com/namespaces/shaper" width="200mm" height="88mm" viewBox="0 0 200 88">
+  <title>Long wall (front/back), cut 2</title>
+  <desc>
+    Bit: 6.350 mm (0.250 in) - set this on Origin.
+    Cut types: exterior @ 12.50 mm deep x1.
+    Geometry is the finished part size; Origin applies the bit offset.
+    Colours per notes/shaper-svg.md (UNVERIFIED until checked against Shaper docs).
+    Material thickness: 12.00 mm (PLACEHOLDER - NOT MEASURED, do not cut good stock).
+    Through-cut depth: 12.50 mm (thickness + 0.5 mm overcut).
+    Corner reliefs: dogbone, sized for the 6.35 mm bit. A different bit needs a re-run.
+    Panel orientation doesn't matter: every notch and slot goes right through.
+  </desc>
+  <path d="M 0 0 L 0 88 L 30 88 L 30 42.4901 A 3.175 3.175 0 0 1 34.4901 38 L 37.5099 38 A 3.175 3.175 0 0 1 42 42.4901 L 42 88 L 158 88 L 158 42.4901 A 3.175 3.175 0 0 1 162.4901 38 L 165.5099 38 A 3.175 3.175 0 0 1 170 42.4901 L 170 88 L 200 88 L 200 0 L 0 0 Z" fill="#000000" stroke="#000000" stroke-width="0.2" fill-rule="evenodd" shaper:cutDepth="12.5mm"/>
+</svg>
