@@ -19,7 +19,12 @@ Specs below are the usual published figures for these models; confirm against th
 - Older printers are less precise. Start with **0.3 mm clearance** for parts that slide together or fit into wood slots, then tune after a test print.
 - Print a small fit-test coupon (a tab and slot at a few clearances) before the real part; it takes minutes and saves failed prints.
 
+## Dan's setup
+
+- **No ABS** (fumes). Default to PLA; use PETG or nylon when a part needs toughness or heat resistance.
+- Wide range of filaments on hand, including exotics such as nylon. Nylon is the pick for wear parts (jig runners, hinges, clips) but must be printed dry.
+- Nozzles: 0.4 mm standard on both; larger nozzles available to swap into the FlashForge for faster, stronger prints of big plain parts.
+
 ## Still to record
 - Slicer actually in use for each printer
-- Filaments on hand (PLA, ABS, PETG?)
-- Any upgrades (nozzles, firmware, bed surface)
+- Exact larger nozzle sizes on hand
