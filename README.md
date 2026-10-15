@@ -44,7 +44,11 @@ projects/   one folder per project
 
 Plywood (3/4, 1/2, 1/4 in nominal), hardboard (1/8, 1/4 in), particle board (1/2 in nominal). Typical real thicknesses and a place to record measured ones: [`notes/materials.md`](notes/materials.md).
 
+## Printers
+
+FlashForge Creator Pro (2014, dual extruder, ~225 × 145 × 150 mm) and Monoprice Mini Delta (~110 mm round bed). Design limits and file formats: [`notes/printers.md`](notes/printers.md).
+
 ## Still to fill in
-- Printer models, nozzle size, usual filament
+- Slicer and filaments in use
 - Measured sheet thicknesses (in `notes/materials.md`)
 - Router bits used with the Origin
