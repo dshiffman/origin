@@ -40,7 +40,11 @@ lib/        shared helpers (SVG export with Shaper cut types, common joints)
 projects/   one folder per project
 ```
 
+## Materials on hand
+
+Plywood (3/4, 1/2, 1/4 in nominal), hardboard (1/8, 1/4 in), particle board (1/2 in nominal). Typical real thicknesses and a place to record measured ones: [`notes/materials.md`](notes/materials.md).
+
 ## Still to fill in
 - Printer models, nozzle size, usual filament
-- Usual plywood thicknesses on hand (measured)
+- Measured sheet thicknesses (in `notes/materials.md`)
 - Router bits used with the Origin
