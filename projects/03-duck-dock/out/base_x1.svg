@@ -5,7 +5,8 @@
     Bit: 6.350 mm (0.250 in) - set this on Origin.
     Cut types: exterior @ 18.50 mm deep x1, interior @ 18.50 mm deep x1, guide x3.
     Geometry is the finished part size; Origin applies the bit offset.
-    Colours per notes/shaper-svg.md (UNVERIFIED until checked against Shaper docs).
+    Colours per notes/shaper-svg.md (Shaper cut type encoding).
+    shaper:cutDepth is a target and over-depth check; set the cut depth on Origin yourself.
     Material: 3/4 in plywood, thickness 18.00 mm (PLACEHOLDER - NOT MEASURED, do not cut good stock).
     Outline and tenon slot: through, 18.50 mm deep (thickness + 0.5 mm).
     Tenon slot reliefs sized for the bit above; a different bit needs a re-run.

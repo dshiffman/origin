@@ -5,9 +5,8 @@ finished size, then hand it to ShaperSVG. The outline becomes an exterior cut,
 each hole becomes an interior cut. Other shapes (pockets, engraving, guide
 marks) can be added on their own.
 
-Cut-type colours live in CUT_STYLES. They follow notes/shaper-svg.md, which is
-still UNVERIFIED against Shaper's current docs; fix the table here if they
-differ.
+Cut-type colours live in CUT_STYLES. They follow notes/shaper-svg.md, checked
+against Shaper's "Cut Type Encoding" article (2026-10-15).
 
 Also here: corner-relief helpers (dog-bone / T-bone) and a bit-size check.
 """
@@ -20,7 +19,7 @@ import cadquery as cq
 
 SHAPER_NS = "http://www.shapertools.com/namespaces/shaper"
 
-# fill, stroke. See notes/shaper-svg.md (UNVERIFIED).
+# fill, stroke. See notes/shaper-svg.md (verified against Shaper's docs).
 CUT_STYLES = {
     "exterior": ("#000000", "#000000"),
     "interior": ("#FFFFFF", "#000000"),
@@ -287,7 +286,8 @@ class ShaperSVG:
             f"Bit: {self.bit_d:.3f} mm ({self.bit_d / INCH:.3f} in) - set this on Origin.",
             "Cut types: " + ", ".join(f"{k} x{v}" for k, v in self.summary().items()) + ".",
             "Geometry is the finished part size; Origin applies the bit offset.",
-            "Colours per notes/shaper-svg.md (UNVERIFIED until checked against Shaper docs).",
+            "Colours per notes/shaper-svg.md (Shaper cut type encoding).",
+            "shaper:cutDepth is a target and over-depth check; set the cut depth on Origin yourself.",
             *self.notes,
         ]
         lines = [

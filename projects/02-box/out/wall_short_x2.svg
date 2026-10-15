@@ -5,7 +5,8 @@
     Bit: 6.350 mm (0.250 in) - set this on Origin.
     Cut types: exterior @ 12.50 mm deep x1.
     Geometry is the finished part size; Origin applies the bit offset.
-    Colours per notes/shaper-svg.md (UNVERIFIED until checked against Shaper docs).
+    Colours per notes/shaper-svg.md (Shaper cut type encoding).
+    shaper:cutDepth is a target and over-depth check; set the cut depth on Origin yourself.
     Material thickness: 12.00 mm (PLACEHOLDER - NOT MEASURED, do not cut good stock).
     Through-cut depth: 12.50 mm (thickness + 0.5 mm overcut).
     Corner reliefs: dogbone, sized for the 6.35 mm bit. A different bit needs a re-run.

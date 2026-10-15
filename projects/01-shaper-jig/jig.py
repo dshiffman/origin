@@ -23,7 +23,7 @@ import cadquery as cq
 
 # The tape
 TAPE_WIDTH = 12.7  # MEASURE: ShaperTape is sold as 1/2 in wide; measure a strip with calipers
-TAPE_SPACING = 80.0  # CHECK: centre-to-centre spacing; set from Shaper's current tape-placement guidance
+TAPE_SPACING = 80.0  # centre to centre. Shaper: rows 2-3 in apart, no more than 3 in (76 mm) gap between strips; 80 leaves a ~67 mm gap
 N_GROOVES = 2  # 2 = place one new strip; 3 = place two at once (makes the bar longer)
 
 # Fit of the tape in the groove

@@ -51,11 +51,11 @@ Default size: 200 × 150 × 100 mm outside, 1/2 in plywood, 1/4 in bit.
 
 ## Check before cutting
 
-- [ ] **Shaper SVG conventions verified?** `notes/shaper-svg.md` is still an unverified draft. Check the colours against Shaper's docs before the first real cut.
+- [ ] **Shaper SVG conventions:** colours now checked against Shaper's docs (`notes/shaper-svg.md`). The first import of the coupon still confirms them on the tool.
 - [ ] **Thickness measured.** Caliper the sheet in several places, set `T_WALL` / `T_BOTTOM`, set `THICKNESS_MEASURED = True`, re-run.
 - [ ] **Bit:** a 1/4 in (6.35 mm) bit is in Origin and Origin's bit setting matches. A different bit means changing `BIT_D` and re-running, because the reliefs depend on it.
 - [ ] **Cut types on import:** the panel outline shows as exterior and the bottom slots as interior.
-- [ ] **Depth:** cut depth = thickness + 0.5 mm. If Origin ignores the encoded depth (older firmware), set it by hand and take several passes.
+- [ ] **Depth:** target = thickness + 0.5 mm, encoded in the file. Origin doesn't apply it automatically: set the tool depth yourself (or use the transfer button) and work down in several passes. Origin warns if you go deeper than the encoded depth, if the Gen 1 firmware supports encoded depth.
 - [ ] **Size check:** after import, measure one panel's length on Origin's screen against the file (`wall_long_x2.svg` is 200 mm long by default).
 - [ ] **Fit coupons done** and `FIT_CLEARANCE` set from them.
 - [ ] **Grain direction:** run the walls' face grain along their length.

@@ -41,9 +41,9 @@ Worth checking in the `duck` repo / Pollen docs before Christmas: where the char
 
 ## Check before cutting / printing
 
-- [ ] **Shaper SVG conventions verified** (`notes/shaper-svg.md` is still an unverified draft).
+- [ ] **Shaper SVG conventions:** colours checked against Shaper's docs (`notes/shaper-svg.md`). Confirm on the tool with the box coupon first.
 - [ ] **Measure the 3/4 in sheet,** set `BASE_T` and `THICKNESS_MEASURED = True`, re-run.
-- [ ] **Bit:** 1/4 in in Origin and in `BIT_D`. Cut types: outline exterior, tenon slot interior, foot outlines and crosses guide only. Depth = thickness + 0.5 mm.
+- [ ] **Bit:** 1/4 in in Origin and in `BIT_D`. Cut types: outline exterior, tenon slot interior, foot outlines and crosses guide only. Depth target = thickness + 0.5 mm, encoded in the file; set the tool depth yourself and take several passes.
 - [ ] **Size check** on Origin's screen: the base is 200 × 220 mm.
 - [ ] **Fit clearance:** use the winning value from the `projects/02-box` coupon for `FIT_CLEARANCE` (same printer, same kind of joint).
 - [ ] **GUESS parameters:** fine to cut the base and print the post and clips now. Hold off on the cradle (and foot pockets) until the duck is here and measured. Cradle reprints are cheap.
