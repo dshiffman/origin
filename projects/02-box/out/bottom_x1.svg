@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:shaper="http://www.shapertools.com/namespaces/shaper" width="200mm" height="150mm" viewBox="0 0 200 150">
+  <title>Bottom, cut 1</title>
+  <desc>
+    Bit: 6.350 mm (0.250 in) - set this on Origin.
+    Cut types: exterior @ 12.50 mm deep x1, interior @ 12.50 mm deep x4.
+    Geometry is the finished part size; Origin applies the bit offset.
+    Colours per notes/shaper-svg.md (UNVERIFIED until checked against Shaper docs).
+    Material thickness: 12.00 mm (PLACEHOLDER - NOT MEASURED, do not cut good stock).
+    Through-cut depth: 12.50 mm (thickness + 0.5 mm overcut).
+    Corner reliefs: dogbone, sized for the 6.35 mm bit. A different bit needs a re-run.
+    Panel orientation doesn't matter: every notch and slot goes right through.
+  </desc>
+  <path d="M 0 0 L 0 150 L 200 150 L 200 0 L 0 0 Z" fill="#000000" stroke="#000000" stroke-width="0.2" fill-rule="evenodd" shaper:cutDepth="12.5mm"/>
+  <path d="M 18.4901 136 A 3.175 3.175 0 0 1 14 131.5099 L 14 130.4901 A 3.175 3.175 0 0 1 18.4901 126 L 19.5099 126 A 3.175 3.175 0 0 1 24 130.4901 L 24 131.5099 A 3.175 3.175 0 0 1 19.5099 136 L 18.4901 136 Z" fill="#FFFFFF" stroke="#000000" stroke-width="0.2" fill-rule="evenodd" shaper:cutDepth="12.5mm"/>
+  <path d="M 180.4901 136 A 3.175 3.175 0 0 1 176 131.5099 L 176 130.4901 A 3.175 3.175 0 0 1 180.4901 126 L 181.5099 126 A 3.175 3.175 0 0 1 186 130.4901 L 186 131.5099 A 3.175 3.175 0 0 1 181.5099 136 L 180.4901 136 Z" fill="#FFFFFF" stroke="#000000" stroke-width="0.2" fill-rule="evenodd" shaper:cutDepth="12.5mm"/>
+  <path d="M 18.4901 24 A 3.175 3.175 0 0 1 14 19.5099 L 14 18.4901 A 3.175 3.175 0 0 1 18.4901 14 L 19.5099 14 A 3.175 3.175 0 0 1 24 18.4901 L 24 19.5099 A 3.175 3.175 0 0 1 19.5099 24 L 18.4901 24 Z" fill="#FFFFFF" stroke="#000000" stroke-width="0.2" fill-rule="evenodd" shaper:cutDepth="12.5mm"/>
+  <path d="M 180.4901 24 A 3.175 3.175 0 0 1 176 19.5099 L 176 18.4901 A 3.175 3.175 0 0 1 180.4901 14 L 181.5099 14 A 3.175 3.175 0 0 1 186 18.4901 L 186 19.5099 A 3.175 3.175 0 0 1 181.5099 24 L 180.4901 24 Z" fill="#FFFFFF" stroke="#000000" stroke-width="0.2" fill-rule="evenodd" shaper:cutDepth="12.5mm"/>
+</svg>
